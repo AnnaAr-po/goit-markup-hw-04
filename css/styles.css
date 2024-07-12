@@ -223,6 +223,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
 }
 .icon-item {
   width: 40px;
@@ -393,7 +394,7 @@ img {
   width: 40px;
   height: 40px;
 }
-.icon-link {
+.icon-link-icon {
   display: flex;
   height: 40px;
   width: 40px;
@@ -401,12 +402,15 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  margin-top: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-inform {
   fill: #f4f4fd;
 }
-.icon-link:hover,
-.icon-link:focus {
+.icon-link-icon:hover {
+  background-color: #31d0aa;
+}
+.icon-link-icon:focus {
   background-color: #31d0aa;
 }
