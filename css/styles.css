@@ -365,11 +365,10 @@ img {
 }
 .container-footer {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 .footer-inform {
   margin-right: 120px;
-  align-items: baseline;
 }
 .footer-item-text {
   font-weight: 500;
@@ -379,7 +378,6 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
   max-width: 264px;
-  margin: 0;
 }
 .container-media {
   align-items: center;
