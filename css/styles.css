@@ -24,6 +24,7 @@ a {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .container {
   max-width: 1158px;
@@ -220,6 +221,7 @@ img {
   color: #434455;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 8px;
 }
 .icon-list {
   display: flex;
